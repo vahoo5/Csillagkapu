@@ -85,11 +85,6 @@ class Canyon extends AbstractBlock {
 		int y = index /10;  //sorindex
 		
 		g.fillRect(marginV + (x * rectWidth), marginH + (y * rectHeight), rectWidth, rectHeight);		
-
 		super.draw(g);
-
 	}
-
-
-	
 }
